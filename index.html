@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<title></title>
 	<script type="text/javascript">
-		var precioUnidad = 5,
+		var precioUnidad = "5",
 			cantidad = 100,
 			total;
 
-			total = precioUnidad * cantidad;
+			total = Number(precioUnidad) + cantidad;
 			console.log("el valor total de la compra es: " + total + "$");
 
 	</script>
