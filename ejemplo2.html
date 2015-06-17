@@ -19,11 +19,14 @@
 <script type="text/javascript">
 	var name = prompt("introduce tu nombre");
 	var lastName = prompt("introduce tu apellido");
+    var edad = prompt("introduce tu edad");
+    var restando = prompt("cuantos años menos te quitarias")
 
 	document.write("<p>");
-	document.write("Bienvenido " + name + " " + lastName);
+	document.write("Bienvenido " + name + " " + lastName + "</br>");
+    document.write("edad ideal: " + (edad -= restando));
 	document.write("</p>");
-
+    
 
 		
 </script>
